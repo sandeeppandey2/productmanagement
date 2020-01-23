@@ -10,6 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * Spring Boot 2.2.4.RELEASE
 * Java 8
+* Docker 19.03.1
 
 ### Prerequisites
 
@@ -27,7 +28,7 @@ cd git/
 
 ##### 2) Clone the code from git into the folder
 ```
-ADD path
+git clone https://github.com/sandeeppandey2/productmanagement.git
 ```
 
 ##### 3) Go into the folder 'ProductManagement'
@@ -35,20 +36,13 @@ ADD path
 cd productManagement
 ```
 
-##### 4a) Start the Database on local using cmd/powershell
+##### 4a) Start the Database on local
 ```
 docker-compose up
 ```
-##### 4b) Start the application on local using maven
+##### 4b) Start the application on local
 ```
 mvn spring-boot:run
-```
-
-
-##### 4b) Start the application on local using docker
-```
-docker image build -t customer/statementvalidator .
-docker run -it customer/statementvalidator -p 9080:9080
 ```
 
 ##### 5) Call the API using curl
