@@ -7,6 +7,7 @@ import com.asellion.demo.model.Message;
 
 public class ExceptionFactory {
 
+
 	  /**
 	   * 
 	   */
@@ -17,7 +18,7 @@ public class ExceptionFactory {
 	  /**
 	   * Method used to log and throw the exception
 	   * 
-	   * @param logMethod - log method
+	   * @param logMethod - log method test
 	   * @param logKey - log key
 	   * @param exception - exception
 	   * @param msgKey - message key
